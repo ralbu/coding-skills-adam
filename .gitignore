@@ -331,3 +331,12 @@ ASALocalRun/
 
 **/.vscode
 **/.vs
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
