@@ -29,3 +29,22 @@ Input:  12
 
 Output: You were born in 2010
 ```
+
+# Excercise 3
+Enter a number and display if it is `even` or `odd`
+
+**Example 1*
+
+```
+Input:  100
+
+Output: Even
+```
+
+**Example 2*
+
+```
+Input: 55
+
+Output: Odd
+```
