@@ -1,3 +1,3 @@
-inputString = input("Enter string: \n")
+inputString = input("Enter string: ")
 print("Lower case is:")
-print(inputString)
+print(inputString.lower())
