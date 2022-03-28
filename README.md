@@ -48,3 +48,14 @@ Input: 55
 
 Output: Odd
 ```
+
+# Excercise 4
+Enter two numbers and multiply them.
+
+Ask for the next two numbers.
+
+Exit the application when typing `q` or `quit`
+
+## Additional
+Display a message if entered numbers are not integer numbers
+If `q` or `quit` is entered instead of number 1 or number 2 terminate the application
