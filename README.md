@@ -51,5 +51,7 @@ Output: Odd
 
 # Excercise 4
 Enter two numbers and multiply them.
+
 Ask for the next two numbers.
+
 Exit the application when typing `q` or `quit`
