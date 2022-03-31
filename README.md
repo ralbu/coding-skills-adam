@@ -1,4 +1,4 @@
-# Excercise 1
+# Exercise 1
 
 Given a `string`, convert it to a `lower case string`
 
@@ -19,7 +19,7 @@ Output: hello
 ```
 
 
-# Excercise 2
+# Exercise 2
 Enter your age and display the year you were born
 
 **Example *
@@ -30,7 +30,7 @@ Input:  12
 Output: You were born in 2010
 ```
 
-# Excercise 3
+# Exercise 3
 Enter a number and display if it is `even` or `odd`
 
 **Example 1*
@@ -49,7 +49,7 @@ Input: 55
 Output: Odd
 ```
 
-# Excercise 4
+# Exercise 4
 Enter two numbers and multiply them.
 
 Ask for the next two numbers.
@@ -59,3 +59,23 @@ Exit the application when typing `q` or `quit`
 ## Additional
 Display a message if entered numbers are not integer numbers
 If `q` or `quit` is entered instead of number 1 or number 2 terminate the application
+
+
+# Exercise 5
+Enter an integer number `N`
+Find the largest number which can divide `N` by `3`
+When `N` is less than 3 then the result is `0`
+When `N` is `3` then the result is `3`
+
+**Example1 *
+
+```
+Input: 6
+Output: 6
+
+Input: 7
+Output: 6
+
+Input: 55
+Output: 54
+```
