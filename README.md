@@ -22,7 +22,7 @@ Output: hello
 # Exercise 2
 Enter your age and display the year you were born
 
-**Example *
+**Example**
 
 ```
 Input:  12
@@ -67,7 +67,7 @@ Find the largest number which can divide `N` by `3`.\
 When N is less than 3 then the result is 0.\
 When N is 3 then the result is 3.
 
-**Example **
+**Example**
 
 ```
 Input: 6
