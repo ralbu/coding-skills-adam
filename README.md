@@ -63,8 +63,8 @@ If `q` or `quit` is entered instead of number 1 or number 2 terminate the applic
 
 # Exercise 5
 Enter an integer number `N`
-Find the largest number which can divide `N` by `3`
-When `N` is less than 3 then the result is `0`
+Find the largest number which can divide `N` by `3`.\
+When `N` is less than 3 then the result is `0`.\
 When `N` is `3` then the result is `3`
 
 **Example1 *
