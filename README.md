@@ -33,7 +33,7 @@ Output: You were born in 2010
 # Exercise 3
 Enter a number and display if it is `even` or `odd`
 
-**Example 1*
+**Example 1**
 
 ```
 Input:  100
@@ -41,7 +41,7 @@ Input:  100
 Output: Even
 ```
 
-**Example 2*
+**Example 2**
 
 ```
 Input: 55
@@ -67,7 +67,7 @@ Find the largest number which can divide `N` by `3`.\
 When N is less than 3 then the result is 0.\
 When N is 3 then the result is 3.
 
-**Example1 *
+**Example **
 
 ```
 Input: 6
