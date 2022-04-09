@@ -60,7 +60,7 @@ class FruitsTest(unittest.TestCase):
         basket = ['apple', 'banana', 'mango', 'dragon fruit']
         result = remove_last_two_fruits_from_basket(basket)
 
-        self.assertEqual(result, 'mango, dragon fruit')
+        self.assertEqual(result, ['apple', 'banana'])
 
     def test_remove_banana(self):
         """Remove banana from the basket"""
