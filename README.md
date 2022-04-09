@@ -1,3 +1,11 @@
+# Table of content
+[Exercise 1](#exercise-1)\
+[Exercise 2](#exercise-2)\
+[Exercise 3](#exercise-3)\
+[Exercise 4](#exercise-4)\
+[Exercise 5](#exercise-5)\
+[Exercise 6](#exercise-6)
+
 # Exercise 1
 
 Given a `string`, convert it to a `lower case string`
@@ -79,3 +87,53 @@ Output: 6
 Input: 55
 Output: 54
 ```
+
+# Exercise 6
+You have a basket with fruits.
+
+Write the implementation for the existing functions as below:
+
+```
+list_all_fruits_in_the_basket()
+```
+
+- List all the fruits as comma separated string with the fist letter of the fruit in Upper Case.
+
+```
+does_the_basket_contain_fruit(fruit: string)
+```
+
+- Return True if the basket contains a fruit
+- Return False if the basket does NOT contain a fruit
+
+```
+get_last_fruit()
+```
+  - Get the last fruit from the basket
+
+```
+add_fruit(fruit: string)
+```
+- Add a new fruit to the basket.
+NOTE: this function should not change the content of the basket. It should create a copy of the existing basket
+
+```
+add_fruit_in_the_middle(fruit:string):
+```
+- Mom bought an orange, but she doesn't want you to see it, so she hides the orange behind the banana. \
+Insert the orange fruit in the basket, so it is inserted after the banana
+  
+```
+remove_banana_from_basket():
+```
+- Remove banana fruit from the basket
+  
+```
+remove_last_two_fruits_from_basket():
+```
+- Remove `mango` and `dragon fruit` from the basket and return the removed fruit as a string separated by comma
+
+```
+remove_fruit(fruit: string):
+```
+- Remove a fruit from the basket
