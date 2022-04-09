@@ -39,9 +39,9 @@ def remove_banana_from_basket():
     return basket
 
 def remove_last_two_fruits_from_basket(basket):
-    basket.remove(basket[-1])
-    basket.remove(basket[-1])
-    return basket
+    removed1 = basket.pop()
+    removed2 = basket.pop()
+    return removed2 + ', ' + removed1
 
 def remove_fruit(fruit: string):
     basket = ['apple', 'banana', 'mango', 'dragon fruit']
