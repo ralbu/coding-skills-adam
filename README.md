@@ -4,7 +4,8 @@
 [Exercise 3](#exercise-3)\
 [Exercise 4](#exercise-4)\
 [Exercise 5](#exercise-5)\
-[Exercise 6](#exercise-6)
+[Exercise 6](#exercise-6)\
+[Exercise 7](#exercise-7)
 
 # Exercise 1
 
@@ -137,3 +138,21 @@ remove_last_two_fruits_from_basket():
 remove_fruit(fruit: string):
 ```
 - Remove a fruit from the basket
+
+# Exercise 7
+## Sum of all numbers
+Suppose you have a natural number `N`\
+Calculate the sum of all of the integers from `1` to `N`\
+There are two methods you need to implement:
+```
+sum_of_all_numbers_using_list(number: int)
+```
+Calculate the sum only using list methods, like range, sum. Can you write the code as one line only?
+
+```
+sum_of_all_numbers_by_formula(number: int)
+```
+Use this formula to calculate the Sum
+```
+Sum = N(N+1) / 2
+```
