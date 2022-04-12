@@ -5,7 +5,8 @@
 [Exercise 4](#exercise-4)\
 [Exercise 5](#exercise-5)\
 [Exercise 6](#exercise-6)\
-[Exercise 7](#exercise-7)
+[Exercise 7](#exercise-7)\
+[Exercise 8](#exercise-8)
 
 # Exercise 1
 
@@ -156,3 +157,26 @@ Use this formula to calculate the Sum
 ```
 Sum = N(N+1) / 2
 ```
+
+# Exercise 8
+Implement required functionality for the below functions:
+```
+generate_odd_range(max_number_in_list: int)
+```
+- Generate a list of `Odd` numbers starting from 1 and using the provided parameter `max_number_in_lst` as the highest threshold 
+
+```
+generate_square_numbers(from_min: int, to_max: int)
+```
+- Generate a list of `Square numbers` using `from_min` and `to_max` as minimum and maximum values to generate the list\
+Example:
+```
+Input: from_min = 1, to_max = 3
+
+Output: 1, 4, 9
+```
+
+```
+get_top_three()
+```
+- Return only the top highest three numbers from the provided list
