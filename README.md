@@ -6,7 +6,8 @@
 [Exercise 5](#exercise-5)\
 [Exercise 6](#exercise-6)\
 [Exercise 7](#exercise-7)\
-[Exercise 8](#exercise-8)
+[Exercise 8](#exercise-8)\
+[Exercise 9](#exercise-9)
 
 # Exercise 1
 
@@ -180,3 +181,10 @@ Output: 1, 4, 9
 get_top_three()
 ```
 - Return only the top highest three numbers from the provided list
+
+# Exercise 9
+Calculate the sum of tuples as described in the example below
+```
+Tuple example: [[(a, b), (c, d)], [(e, f), (g, h)]]
+Result sum: (a + c + e + g), (b + d + f + h)
+```
