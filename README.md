@@ -191,8 +191,7 @@ Result sum: (a + c + e + g), (b + d + f + h)
 ```
 
 # Exercise 10
-Given a number `N`, display all the prime numbers up to number `N`.
-Calculate the sum of tuples as described in the example below
+Given a number `N`, display all the prime numbers up to number `N`
 
 **Example**
 ```
