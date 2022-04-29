@@ -7,7 +7,8 @@
 [Exercise 6](#exercise-6)\
 [Exercise 7](#exercise-7)\
 [Exercise 8](#exercise-8)\
-[Exercise 9](#exercise-9)
+[Exercise 9](#exercise-9)\
+[Exercise 10](#exercise-10)
 
 # Exercise 1
 
@@ -187,4 +188,13 @@ Calculate the sum of tuples as described in the example below
 ```
 Tuple example: [[(a, b), (c, d)], [(e, f), (g, h)]]
 Result sum: (a + c + e + g), (b + d + f + h)
+```
+
+# Exercise 10
+Given a number `N`, display all the prime numbers up to number `N`
+
+**Example**
+```
+Input: 8
+Output: 2, 3, 5, 7
 ```
