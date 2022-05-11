@@ -8,7 +8,8 @@
 [Exercise 7](#exercise-7)\
 [Exercise 8](#exercise-8)\
 [Exercise 9](#exercise-9)\
-[Exercise 10](#exercise-10)
+[Exercise 10](#exercise-10)\
+[Exercise 11](#exercise-11)
 
 # Exercise 1
 
@@ -198,3 +199,24 @@ Given a number `N`, display all the prime numbers up to number `N`
 Input: 8
 Output: 2, 3, 5, 7
 ```
+
+# Exercise 11
+Given an array of dictionaries with Game Players and their score, calculate the average score of players with the name which
+starts with the same letter
+
+**Example**
+```
+Input: 
+        players = [
+            {'name': 'James', 'score': 200},
+            {'name': 'Mary', 'score': 100},
+            {'name': 'John', 'score': 100}
+        ]
+Output: 
+    {
+     'J': 150, 
+     'M': 100
+     }
+```
+J = 150 because first letter is J from James and John and add they score 200 + 100 and divide two 2
+M = 100 because only Mary starts with M and the score is 100

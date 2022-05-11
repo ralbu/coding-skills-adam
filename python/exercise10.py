@@ -1,1 +1,4 @@
-number = input("Enter a number ")
+def calculate_avg_players(players):
+    result = {}
+
+    return result
