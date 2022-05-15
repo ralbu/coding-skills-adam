@@ -9,7 +9,8 @@
 [Exercise 8](#exercise-8)\
 [Exercise 9](#exercise-9)\
 [Exercise 10](#exercise-10)\
-[Exercise 11](#exercise-11)
+[Exercise 11](#exercise-11)\
+[Exercise 12](#exercise-12)
 
 # Exercise 1
 
@@ -220,3 +221,18 @@ Output:
 ```
 J = 150 because first letter is J from James and John and add they score 200 + 100 and divide two 2
 M = 100 because only Mary starts with M and the score is 100
+
+# Exercise 12
+Create the following classes with the required functionality:
+
+- ```Mob``` class which stores name,  proved name as constructor parameter
+- ```Mob``` class has ```get_name``` method which returns the name provided in constructor
+- ```Mob``` class has ```move``` method which accepts a parameter named ```direction``` and prints the directiono
+
+- ```Villager``` class which inherits from the ```Mob``` class
+- ```Villager``` class stores the colour, provided as constructor parameter
+- ```Villager``` class has ```get_colour``` method which returns the colour provided in the constructor
+- ```Villager``` class has ```weapons``` method which returns an empty array
+
+- ```Creeper``` class which inherits from the ```Mob``` class
+- ```Creeper``` class has ```weapons``` method which returns an array with 'TNT' value
