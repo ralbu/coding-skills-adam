@@ -18,7 +18,8 @@
   - Intermediate - allows 10 chances to guess the correct number
   - Expert - allows 3 chances to guess the correct number
 
-**__Useful resources__**\
+**_Useful resources_**
+
 [random](https://docs.python.org/3/library/random.html#random.randint) \
 [Comparisons](https://docs.python.org/3/reference/expressions.html#comparisons) \
 [f-strings](https://docs.python.org/3/reference/lexical_analysis.html#f-strings) and (https://peps.python.org/pep-0498/) \
