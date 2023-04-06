@@ -28,5 +28,6 @@
 [enumerate](https://docs.python.org/3/library/functions.html#enumerate) \
 [reversed](https://docs.python.org/3/library/functions.html#reversed)
 
-## Exercise 1.2
-Ex 2
+[comment]: <> (## Exercise 1.2)
+
+[comment]: <> (Ex 2)
