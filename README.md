@@ -18,7 +18,7 @@
   - Intermediate - allows 10 chances to guess the correct number
   - Expert - allows 3 chances to guess the correct number
 
-**_Useful resources_**
+**Useful resources**
 
 [random](https://docs.python.org/3/library/random.html#random.randint) \
 [Comparisons](https://docs.python.org/3/reference/expressions.html#comparisons) \
