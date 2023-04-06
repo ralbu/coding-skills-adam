@@ -15,7 +15,7 @@
 - Modify the program so that it gives the user only 3 chances to guess the correct number
 - Modify the program to ask the user which Level:
   - Beginner - allows 10 chances to guess the correct number
-  - Intermediate - allows 10 chances to guess the correct number
+  - Intermediate - allows 5 chances to guess the correct number
   - Expert - allows 3 chances to guess the correct number
 
 **Useful resources**
