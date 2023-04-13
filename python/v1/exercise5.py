@@ -1,9 +1,7 @@
 def highest_divisor_of_three(no: int):
-    return 0
-
-
-number = input("Enter no ")
-
-result = highest_divisor_of_three(int(number))
-
-print(result)
+    if no < 3:
+        return 0
+    elif no % 3 == 0:
+        return no
+    elif no % 3 == 1:
+        return no - 1
