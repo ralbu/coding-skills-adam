@@ -1,6 +1,13 @@
 import random
 
-guess_amount_difficulty = input("Choose a difficulty level (1, 2, or 3): ")
+while True:
+    try:
+        guess_amount_difficulty = int(input("Choose a difficulty level (1, 2, or 3): "))
+        break
+    except ValueError:
+        print("Please enter a number.")
+        continue
+
 
 def guessing_game(difficulty: int):
     target_number = random.randint(0, 100)
@@ -13,19 +20,28 @@ def guessing_game(difficulty: int):
         guesses = 3
 
     while guessed_number != target_number:
-        guessed_number = int(input("Guess a number between 0 and 100: "))
+        while True:
+            try:
+                guessed_number = int(input("Guess a number between 0 and 100: "))
+                break
+            except ValueError:
+                print("Please enter a number.")
+                continue
+
         if guesses == 0:
-            return False
+            return None
         guesses -= 1
         if guessed_number < target_number:
             print("Too low!")
         elif guessed_number > target_number:
             print("Too high!")
         else:
-            return True
+            return target_number
 
-game_result = guessing_game(int(guess_amount_difficulty))
-if game_result:
-    print("You won!")
+
+game_result = guessing_game(guess_amount_difficulty)
+
+if game_result is not None:
+    print(f"You won! The number was {game_result}.")
 else:
-    print("You lost!")
+    print(f"You lost! The number was {game_result}.")
