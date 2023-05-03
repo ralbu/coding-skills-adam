@@ -29,19 +29,19 @@ def guessing_game(difficulty: int):
                 continue
 
         if guesses == 0:
-            return False
+            return None
         guesses -= 1
         if guessed_number < target_number:
             print("Too low!")
         elif guessed_number > target_number:
             print("Too high!")
         else:
-            return True
+            return target_number
 
 
 game_result = guessing_game(guess_amount_difficulty)
 
-if game_result:
-    print("You won!")
+if game_result is not None:
+    print(f"You won! The number was {game_result}.")
 else:
-    print("You lost!")
+    print(f"You lost! The number was {game_result}.")
