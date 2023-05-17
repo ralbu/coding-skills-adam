@@ -1,3 +1,3 @@
-input("How old are you? ")
+age = int(input("How old are you? "))
 
-print('You were born in:')
+print('You were born in: ', 2021-age)
