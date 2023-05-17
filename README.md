@@ -31,3 +31,11 @@
 [comment]: <> (## Exercise 1.2)
 
 [comment]: <> (Ex 2)
+
+## Exercise 1.2
+- Write a function, call it `my_sum`. Write the code in the folder *python/workout/ex1/ex2_my_sum.py*
+- The function should take a variable number of arguments. Check the resource below for variable number of arguments
+- Example to function call: *my_sum(1, 3, 4, 4)*
+
+**Useful resources**
+[Arbitrary Argument Lists](https://docs.python.org/3/tutorial/controlflow.html#arbitrary-argument-lists)
