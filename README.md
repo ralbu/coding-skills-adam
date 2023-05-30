@@ -39,3 +39,19 @@
 
 **Useful resources**
 [Arbitrary Argument Lists](https://docs.python.org/3/tutorial/controlflow.html#arbitrary-argument-lists)
+
+## Exercise 1.3
+- Write a function, call it `run_timing` that asks how long it took for you to run 5 km
+- The function continues to ask how long (in minutes) it took for additional runs, until the user presses Enter
+- When the user presses Enter, the function exits--but only after calculating and displaying the average time that the 5 km runs took
+- Numeric inputs and outputs should all be floating-point values
+
+***Example***
+```
+Enter 5 km run time: 15
+Enter 5 km run time: 20
+Enter 5 km run time: 10
+Enter 5 km run time: <enter>
+ 
+Average of 15.0, over 3 runs
+```
