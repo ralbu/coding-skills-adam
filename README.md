@@ -55,3 +55,24 @@ Enter 5 km run time: <enter>
  
 Average of 15.0, over 3 runs
 ```
+
+## Exercise 1.4
+
+- Write a function, call it `hex_conversion` that asks for a hexadecimal number and converts it to integer
+- Don't use existing function. Iterate through every digit and convert every digit individually
+- You convert from hex to decimal using the following formula:
+```
+Start from the rightmost digit of the hexadecimal number.
+Assign a decimal value to each digit according to its position (from right to left): 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A (10), B (11), C (12), D (13), E (14), F (15).
+Multiply each digit by 16 raised to the power of its position and sum the results.
+For example, let's convert the hex number "1A" to decimal using the formula:
+
+1A = (1 * 16^1) + (A * 16^0)
+= (1 * 16) + (10 * 1)
+= 16 + 10
+= 26
+```
+- use the `enumerate` ([enumerate](https://docs.python.org/3/library/functions.html#enumerate)) and `reversed` ([reversed](https://docs.python.org/3/library/functions.html#reversed)) functions
+- `reversed` because you need to reverse based on the above formula
+- `enumerate` because you need to use the index of the digit based on the above formula
+- use the `int` function which takes the second parameter as number base (16 in this case)
