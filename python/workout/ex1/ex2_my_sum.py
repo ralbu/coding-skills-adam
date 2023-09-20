@@ -4,4 +4,5 @@ def my_sum(*args):
         sum += i
     return sum
 
+
 print(my_sum(1, 3, 4, 4))
