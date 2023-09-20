@@ -1,6 +1,5 @@
 from python.workout.ex1.ex5_pig_latin import to_pig_latin
 
-
 def test_a():
     assert to_pig_latin("apple") == "appleway"
 

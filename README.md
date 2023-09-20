@@ -76,3 +76,12 @@ For example, let's convert the hex number "1A" to decimal using the formula:
 - `reversed` because you need to reverse based on the above formula
 - `enumerate` because you need to use the index of the digit based on the above formula
 - use the `int` function which takes the second parameter as number base (16 in this case)
+
+
+## Exercise 1.5
+- Write a function to convert words into Pig Latin
+- Use the following rules:
+```
+If the word begins with a vowel (a, e, i, o, or u), add “way” to the end of the word. So “air” becomes “airway” and “eat” becomes “eatway.”
+If the word begins with any other letter, then we take the first letter, put it on the end of the word, and then add “ay.” Thus, “python” becomes “ythonpay” and “computer” becomes “omputercay.”
+```
