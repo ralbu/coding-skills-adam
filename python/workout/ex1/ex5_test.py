@@ -1,9 +1,4 @@
-from ex1.ex5 import get_val, to_pig_latin
-
-
-def test_get_val():
-    assert get_val() == 3
-
+from python.workout.ex1.ex5_pig_latin import to_pig_latin
 
 def test_a():
     assert to_pig_latin("apple") == "appleway"
