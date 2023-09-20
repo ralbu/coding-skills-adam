@@ -9,31 +9,13 @@
 # = 26
 
 def convert_hex(hex_num):
-    letter_digits = {
-        'A': 10,
-        'B': 11,
-        'C': 12,
-        'D': 13,
-        'E': 14,
-        'F': 15,
-    }
+    final_number = 0
 
-    digits = []
-    calc = [0, 0]
-    for digit in hex_num:
-        if digit.upper() in letter_digits:
-            digits.append(int(letter_digits[digit.upper()]))
-        else:
-            digits.append(int(digit))
+    for index, digit in enumerate(reversed(hex_num)):
+        final_number += int(digit, 16) * 16 ** index
 
-    for digit in digits:
-        print(type(digit))
-
-    calc[0] = digits[0] * 16 ** 1
-    calc[1] = digits[1] * 16 ** 0
-
-    return sum(calc)
+    return final_number
 
 
-converted_hex = convert_hex('A1')
+converted_hex = convert_hex('C1')
 print(converted_hex)
