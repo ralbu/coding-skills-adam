@@ -85,3 +85,6 @@ For example, let's convert the hex number "1A" to decimal using the formula:
 If the word begins with a vowel (a, e, i, o, or u), add “way” to the end of the word. So “air” becomes “airway” and “eat” becomes “eatway.”
 If the word begins with any other letter, then we take the first letter, put it on the end of the word, and then add “ay.” Thus, “python” becomes “ythonpay” and “computer” becomes “omputercay.”
 ```
+
+## Exercise 1.6
+- Write a function to convert a sentence into Pig Latin
