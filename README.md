@@ -92,7 +92,7 @@ If the word begins with any other letter, then we take the first letter, put it 
 ## Exercise 1.7
 - Write a function to convert a sentence into Ubbi Dubbi, following the rule:
 ``` 
-For each vowel (a, e, i, o, or u) in a word, add ub before the vowel. 
+For each vowel (a, e, i, o, or u) in a word, add ub before the vowel
 ```
 ***Example***
 
