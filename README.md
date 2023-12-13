@@ -97,3 +97,14 @@ For each vowel (a, e, i, o, or u) in a word, add ub before the vowel
 ***Example***
 
 ```python``` becomes ```pythubon``` and ```computer``` becomes ```cubompubutuber```
+
+
+# Part 3
+## Exercise 3.1 (9)
+- Write a function, `first_last` that takes a sequence (string, list, or tuple) and returns the first and last elements of that sequence, in a two-element sequence of the same type
+- Write a function, `even_odd_sums` that takes a list or tuple of numbers. Return a two-element list, containing (respectively) the sum of the even-indexed numbers and the sum of the odd-indexed numbers
+- Write a function, `plus_minus` that takes a list or tuple of numbers. Return the result of alternately adding and subtracting numbers from each other
+- Write a function, `custom_zip` that partly emulates the built-in zip function (http://mng.bz/Jyzv), taking two iterables and returning a list of tuples. Each tuple will contain one element from each of the iterables passed to the function.
+- Write a function, `custom_zip_any_parameters` that partly emulates the built-in zip function (http://mng.bz/Jyzv), taking any number of iterables and returning a list of tuples. Each tuple will contain one element from each of the iterables passed to the function.
+
+
