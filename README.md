@@ -108,3 +108,5 @@ For each vowel (a, e, i, o, or u) in a word, add ub before the vowel
 - Write a function, `custom_zip_any_parameters` that partly emulates the built-in zip function (http://mng.bz/Jyzv), taking any number of iterables and returning a list of tuples. Each tuple will contain one element from each of the iterables passed to the function.
 
 
+## Exercise 3.2 (10)
+- Write a function `my_sum_generic` that takes a variable number of arguments and returns the sum of those arguments. The arguments should all be of the same type (i.e., all arguments should be integers or all should be strings). If any arguments are strings, the function should return a string concatenation, not a sum.
