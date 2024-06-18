@@ -110,3 +110,9 @@ For each vowel (a, e, i, o, or u) in a word, add ub before the vowel
 
 ## Exercise 3.2 (10)
 - Write a function `my_sum_generic` that takes a variable number of arguments and returns the sum of those arguments. The arguments should all be of the same type (i.e., all arguments should be integers or all should be strings). If any arguments are strings, the function should return a string concatenation, not a sum.
+
+
+## Exercise 3.3 (11)
+- Using the `PEOPLE` dictionary, write two functions that return a list of the names of the people in the dictionary, sorted alphabetically by last name and then by first name
+  - The first function `alphabetize_names_lambda` will use a lambda function to sort the list
+  - The second function `alphabetize_names_itemgetter` will use the `itemgetter` function from the `operator` module to sort the list. More details at [operator.itemgetter](https://docs.python.org/3/library/operator.html#operator.itemgetter)
