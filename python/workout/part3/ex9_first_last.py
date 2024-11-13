@@ -32,7 +32,7 @@ def test_even_odd_sums():
 
 # Ex 3
 def plus_minus(sequence):
-    return 50
+    return sum([num if i % 2 == 1 else -num for i, num in enumerate(sequence)]) + sequence[0] * 2
 
 
 def test_plus_minus():
@@ -43,7 +43,7 @@ def test_plus_minus():
 
 # Ex 4
 def custom_zip(list1, list2):
-    return [(10, "a")]
+    return [(list1[i], list2[i]) for i in range(len(list1))]
 
 
 def test_custom_zip():
@@ -56,7 +56,7 @@ def test_custom_zip():
 
 # Ex 5
 def custom_zip_any_parameters(*args):
-    return [(10, 'a', 1), (20, 'b', 2)]
+    return [tuple(arg[i] for arg in args) for i in range(len(args[[len(i) for i in args].index(min([len(i) for i in args]))]))]
 
 
 def test_custom_zip_any_parameters():
