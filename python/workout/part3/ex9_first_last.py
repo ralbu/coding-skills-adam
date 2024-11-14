@@ -1,12 +1,7 @@
 # Ex 1
 
 def first_last(sequence):
-    if type(sequence) == list:
-        return [sequence[0], sequence[-1]]
-    elif type(sequence) == tuple:
-        return (sequence[0], sequence[-1])
-    elif type(sequence) == str:
-        return str(sequence[0]) + str(sequence[-1])
+    return [sequence[0], sequence[-1]] if type(sequence) == list else (sequence[0], sequence[-1]) if type(sequence) == tuple else str(sequence[0]) + str(sequence[-1]) if type(sequence) == str else None
         
 
 def test_first_last_list():
