@@ -1,10 +1,5 @@
 def my_sum_generic(*args):
-    if len(args) == 0:
-        return ()
-    elif all(type(arg) == str for arg in args):
-        return "".join(args)
-    elif all(type(arg) == int for arg in args):
-        return sum(args)
+    return () if len(args) == 0 else "".join(args) if all(type(arg) == str for arg in args) else sum(args) if all(type(arg) == int for arg in args) else None
 
 
 def test_my_sum_int():
