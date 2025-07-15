@@ -11,13 +11,12 @@ PEOPLE = [
 ]
 
 
-def alphabetize_names_lambda(dict):
-    pass
+def alphabetize_names_lambda(people):
+    return sorted(people, key=lambda person: person['last'] + person['first'])
 
 
-def alphabetize_names_itemgetter(dict):
-    pass
-
+def alphabetize_names_itemgetter(people):
+    return sorted(people, key=operator.itemgetter('last', 'first'))
 
 def test_alphabetize_names_lambda():
     result = alphabetize_names_lambda(PEOPLE)
@@ -31,7 +30,7 @@ def test_alphabetize_names_lambda():
 
 
 def test_alphabetize_names_itemgetter():
-    result = alphabetize_names_lambda(PEOPLE)
+    result = alphabetize_names_itemgetter(PEOPLE)
     assert result[0] == {"first": "Tim", "last": "Berners-Lee"}
     assert result[1] == {"first": "Richard", "last": "Feinman"}
     assert result[2] == {"first": "Will", "last": "Feinman"}
