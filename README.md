@@ -138,8 +138,8 @@ Pay attention to the `most_common` method [most_common](https://docs.python.org/
   - If the user enters the name of a dish not on the menu, the program tells the user that the dish is not on the menu.
   - If the user enters an empty string, the program stops prompting and prints the total amount.
 
-*Example*
-`
+*Example_*
+```
 Order: water
 water costs 2
 Total cost: 2
@@ -148,4 +148,4 @@ tea costs 3
 Total cost: 5
 Order: eggs
 Sorry, no 'eggs' in menu
-`
+```
