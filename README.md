@@ -128,3 +128,24 @@ For each vowel (a, e, i, o, or u) in a word, add ub before the vowel
 
 You can use `Counter` from the `collections` module to count the repeating letters in the string. More details at [collections.Counter](https://docs.python.org/3/library/collections.html#collections.Counter)
 Pay attention to the `most_common` method [most_common](https://docs.python.org/3/library/collections.html#collections.Counter)
+
+# Part 4
+
+## Exercise 4.1 (14)
+
+- Write a function, `restaurant` that asks the user to enter an order. Then check against the items in the menu dictionary.
+  - If the user enters the name of a dish on the menu, the program prints the price and the running total. It then asks the user again for their order.
+  - If the user enters the name of a dish not on the menu, the program tells the user that the dish is not on the menu.
+  - If the user enters an empty string, the program stops prompting and prints the total amount.
+
+*Example*
+`
+Order: water
+water costs 2
+Total cost: 2
+Order: tea
+tea costs 3
+Total cost: 5
+Order: eggs
+Sorry, no 'eggs' in menu
+`
