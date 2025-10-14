@@ -192,3 +192,14 @@ dictdiff({"a": 1, "b": 2}, {"a": 1, "b": 2})
 dictdiff({"a": 1, "b": 2}, {"a": 1, "b": 3, "c": 4})
 # Output: {"b": [2, 3], "c": [None, 4]}
 ```
+
+## Exercise 4.4 (17)
+Write a function `how_many_different_numbers` that takes a list of items and returns the number of different items in the list.
+**Example**
+```python
+how_many_different_numbers([1, 1])
+# Output: is 1 
+
+how_many_different_numbers([1, 2, 2, 1])
+# Output: is 2 
+```
