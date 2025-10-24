@@ -1,0 +1,19 @@
+# [build-system]
+# requires = ["uv-build >= 0.9.5, <0.10.0"]
+# build-backend = "uv_build"
+
+[project]
+name = "run_files"
+version = "0.0.1"
+# authors = [
+#     { name="Adam Albu", email="myemail123@email.com"}
+# ]
+description = "Run files in a folder if they have not been changed"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]

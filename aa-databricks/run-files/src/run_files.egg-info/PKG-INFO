@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: run_files
+Version: 0.0.1
+Summary: Run files in a folder if they have not been changed
+License-Expression: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# Package test
+This is a package test
