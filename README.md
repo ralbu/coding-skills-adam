@@ -209,3 +209,13 @@ Write a function `get_final_line` that takes a filename as input and returns the
 Use the following documentation to learn more about filestreams:
 - [Reading and writing files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 - [The with statement](https://docs.python.org/3/reference/compound_stmts.html#with)
+
+## Exercise 5.2 (19)
+Write a function `password_to_dict` that reads from a Unix-style password file and returns a dictionary. The dictionary should have the username as the key and the ID are
+the value.
+Here's an example of the file.
+```
+nobody:*:-2:-2::0:0:Unprivileged User:/var/empty:/usr/bin/false
+```
+The first field is the username and the third field is the user ID. The fields are separated by colons (`:`).
+in the example above, the username is `nobody` and the user ID is `-2`.
