@@ -219,3 +219,10 @@ nobody:*:-2:-2::0:0:Unprivileged User:/var/empty:/usr/bin/false
 ```
 The first field is the username and the third field is the user ID. The fields are separated by colons (`:`).
 in the example above, the username is `nobody` and the user ID is `-2`.
+
+## Exercise 5.3 (20)
+Write a function `word_count` takes a filename as input and will will return four lines of output:
+- Number of characters (including whitespace)
+- Number of words (separated by whitespace)
+- Number of lines
+- Number of unique words (case sensitive, so “NO” is different from “no”)

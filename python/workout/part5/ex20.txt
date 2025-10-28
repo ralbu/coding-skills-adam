@@ -1,0 +1,7 @@
+This document is about learning Python
+It describes its own content and structure
+The text is organized into several lines for clarity
+
+It also highlights its self-referential aspect
+The writing is simple and focused on Python
+Quite engaging, isn't it?
