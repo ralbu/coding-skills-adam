@@ -226,3 +226,7 @@ Write a function `word_count` takes a filename as input and will will return fou
 - Number of words (separated by whitespace)
 - Number of lines
 - Number of unique words (case sensitive, so “NO” is different from “no”)
+
+## Exercise 5.4 (21)
+Write two functions. First is `find_longest_word` takes a filename as an argument and returns the longest word found in the file.
+The second function, `find_all_longest_words`, takes a directory name and returns a dict in which the keys are filenames and the values are the longest words from each file.
