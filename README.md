@@ -230,3 +230,8 @@ Write a function `word_count` takes a filename as input and will will return fou
 ## Exercise 5.4 (21)
 Write two functions. First is `find_longest_word` takes a filename as an argument and returns the longest word found in the file.
 The second function, `find_all_longest_words`, takes a directory name and returns a dict in which the keys are filenames and the values are the longest words from each file.
+
+## Exercise 5.5 (22)
+Write a function `text_to_csv` an input filename and an output filename. 
+The function reads the text file which has data separated by ':' and writes its contents to a CSV file.
+For each line, take the item 0 and 2 and write them to the CSV file.
