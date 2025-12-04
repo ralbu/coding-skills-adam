@@ -116,3 +116,13 @@ For each vowel (a, e, i, o, or u) in a word, add ub before the vowel
 - Using the `PEOPLE` dictionary, write two functions that return a list of the names of the people in the dictionary, sorted alphabetically by last name and then by first name
   - The first function `alphabetize_names_lambda` will use a lambda function to sort the list
   - The second function `alphabetize_names_itemgetter` will use the `itemgetter` function from the `operator` module to sort the list. More details at [operator.itemgetter](https://docs.python.org/3/library/operator.html#operator.itemgetter)
+
+
+## Exercise 3.4 (12)
+- Write a function `most_repeating_words` that takes a sequence of strings and returns a sequence of string that contains the greatest number of repeating words in the string.
+
+*Example*
+- When the word is `hello` it contains 2 repeating letters of `l`
+- When the word is `banana` it contains 3 repeating letters of `a`
+- When the words are `hello banana` it should return `banana` because it contains 3 repeating letters of `a`
+
