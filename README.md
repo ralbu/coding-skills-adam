@@ -116,7 +116,7 @@ For each vowel (a, e, i, o, or u) in a word, add ub before the vowel
 - Using the `PEOPLE` dictionary, write two functions that return a list of the names of the people in the dictionary, sorted alphabetically by last name and then by first name
   - The first function `alphabetize_names_lambda` will use a lambda function to sort the list
   - The second function `alphabetize_names_itemgetter` will use the `itemgetter` function from the `operator` module to sort the list. More details at [operator.itemgetter](https://docs.python.org/3/library/operator.html#operator.itemgetter)
-
+  
 
 ## Exercise 3.4 (12)
 - Write a function `most_repeating_words` that takes a sequence of strings and returns a sequence of string that contains the greatest number of repeating words in the string.
@@ -126,3 +126,26 @@ For each vowel (a, e, i, o, or u) in a word, add ub before the vowel
 - When the word is `banana` it contains 3 repeating letters of `a`
 - When the words are `hello banana` it should return `banana` because it contains 3 repeating letters of `a`
 
+You can use `Counter` from the `collections` module to count the repeating letters in the string. More details at [collections.Counter](https://docs.python.org/3/library/collections.html#collections.Counter)
+Pay attention to the `most_common` method [most_common](https://docs.python.org/3/library/collections.html#collections.Counter)
+
+# Part 4
+
+## Exercise 4.1 (14)
+
+- Write a function, `restaurant` that asks the user to enter an order. Then check against the items in the menu dictionary.
+  - If the user enters the name of a dish on the menu, the program prints the price and the running total. It then asks the user again for their order.
+  - If the user enters the name of a dish not on the menu, the program tells the user that the dish is not on the menu.
+  - If the user enters an empty string, the program stops prompting and prints the total amount.
+
+*Example:*
+```
+Order: water
+water costs 2
+Total cost: 2
+Order: tea
+tea costs 3
+Total cost: 5
+Order: eggs
+Sorry, no 'eggs' in menu
+```
