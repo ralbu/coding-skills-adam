@@ -1,0 +1,22 @@
+[
+  {"math": 88, "literature": 92, "science": 85},
+  {"math": 74, "literature": 81, "science": 79},
+  {"math": 90, "literature": 87, "science": 93},
+  {"math": 65, "literature": 72, "science": 70},
+  {"math": 98, "literature": 89, "science": 94},
+  {"math": 82, "literature": 85, "science": 80},
+  {"math": 76, "literature": 90, "science": 88},
+  {"math": 91, "literature": 84, "science": 86},
+  {"math": 69, "literature": 75, "science": 73},
+  {"math": 85, "literature": 88, "science": 90},
+  {"math": 93, "literature": 91, "science": 89},
+  {"math": 77, "literature": 80, "science": 78},
+  {"math": 100, "literature": 94, "science": 96},
+  {"math": 68, "literature": 74, "science": 71},
+  {"math": 87, "literature": 83, "science": 82},
+  {"math": 95, "literature": 89, "science": 92},
+  {"math": 72, "literature": 78, "science": 76},
+  {"math": 89, "literature": 86, "science": 88},
+  {"math": 81, "literature": 84, "science": 79},
+  {"math": 92, "literature": 90, "science": 91}
+]

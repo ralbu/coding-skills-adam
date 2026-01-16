@@ -235,3 +235,7 @@ The second function, `find_all_longest_words`, takes a directory name and return
 Write a function `text_to_csv` an input filename and an output filename. 
 The function reads the text file which has data separated by ':' and writes its contents to a CSV file.
 For each line, take the item 0 and 2 and write them to the CSV file.
+
+## Exercise 5.6 (23)
+Write a function `analyze data` that takes a CSV filename as input. The file contains subjects and test scores in high school. 
+The function should print the subject and average value of the scores for that subject.
