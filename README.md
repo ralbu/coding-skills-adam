@@ -239,3 +239,7 @@ For each line, take the item 0 and 2 and write them to the CSV file.
 ## Exercise 5.6 (23)
 Write a function `analyze data` that takes a CSV filename as input. The file contains subjects and test scores in high school. 
 The function should print the subject and average value of the scores for that subject.
+
+## Exercise 7.2 (28)
+Write a function `join_numbers` that a range of integers and returns a string of those integers joined together with a comma.
+Use list comprehension.
