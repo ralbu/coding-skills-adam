@@ -243,3 +243,7 @@ The function should print the subject and average value of the scores for that s
 ## Exercise 7.2 (28)
 Write a function `join_numbers` that a range of integers and returns a string of those integers joined together with a comma.
 Use list comprehension.
+
+## Exercise 7.3 (29)
+Write a function `sum_numbers` that takes a string as an argument, splits by empty space and add all the numbers in the string together.
+If a split value is a sting with number then don't consider it.
