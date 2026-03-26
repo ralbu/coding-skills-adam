@@ -247,3 +247,7 @@ Use list comprehension.
 ## Exercise 7.3 (29)
 Write a function `sum_numbers` that takes a string as an argument, splits by empty space and add all the numbers in the string together.
 If a split value is a sting with number then don't consider it.
+
+## Exercise 7.4 (30)
+Write a function `flatten` that takes a list of lists and returns a single list with all the values from the nested lists.
+Use list comprehension.
