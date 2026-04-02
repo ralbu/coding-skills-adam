@@ -149,3 +149,28 @@ Total cost: 5
 Order: eggs
 Sorry, no 'eggs' in menu
 ```
+
+## Exercise 4.2 (15)
+Complete the function `movie_tracker()` that helps you keep track of movie ratings.
+
+- Ask the user to enter a movie title
+- If they just press Enter (blank), show a final report and stop
+- If they enter a movie title, ask them for a rating (1-10)
+- Keep asking for more movies and ratings until they enter a blank movie title
+- When they're done, show each movie and its average rating
+*Example:*
+```
+Enter movie title: The Matrix
+Enter rating: 9
+Enter movie title: The Matrix
+Enter rating: 8
+Enter movie title: Inception
+Enter rating: 10
+Enter movie title: Inception
+Enter rating: 9
+Enter movie title: 
+
+Movie Rating Report:
+The Matrix: 8.5 average (2 ratings)
+Inception: 9.5 average (2 ratings)
+```
