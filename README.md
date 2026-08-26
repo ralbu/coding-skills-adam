@@ -203,3 +203,9 @@ how_many_different_numbers([1, 1])
 how_many_different_numbers([1, 2, 2, 1])
 # Output: is 2 
 ```
+## Exercise 5.1 (18)
+Write a function `get_final_line` that takes a filename as input and returns the last line of the file as a string.
+
+Use the following documentation to learn more about filestreams:
+- [Reading and writing files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+- [The with statement](https://docs.python.org/3/reference/compound_stmts.html#with)
