@@ -174,3 +174,21 @@ Movie Rating Report:
 The Matrix: 8.5 average (2 ratings)
 Inception: 9.5 average (2 ratings)
 ```
+
+## Exercise 4.3 (16)
+
+Write a function `dictdiff(dict1, dict2)` that compares two dictionaries and returns a new dictionary showing their differences.
+
+- If the dictionaries are identical → return `{}` (empty dict).  
+- For each differing key:
+  - The result should include the key with a **list of two values**: `[value_in_dict1, value_in_dict2]`.  
+  - If a key is missing in one dict, use `None` for that side.  
+
+**Example**  
+```python
+dictdiff({"a": 1, "b": 2}, {"a": 1, "b": 2})
+# Output: {}
+
+dictdiff({"a": 1, "b": 2}, {"a": 1, "b": 3, "c": 4})
+# Output: {"b": [2, 3], "c": [None, 4]}
+```
