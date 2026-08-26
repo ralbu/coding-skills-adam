@@ -1,5 +1,14 @@
-def dictdiff(first, second):
-    pass
+def dictdiff(first: dict[str, int], second: dict[str, int]) -> dict:
+    all_keys = first.keys() | second.keys()
+
+    differences = {}
+
+    for key in all_keys:
+        if first.get(key) != second.get(key):
+            differences[key] = [first.get(key), second.get(key)]
+
+
+    return differences
 
 def test_the_same_data():
     d = {'a': 1, 'b': 2, 'c': 3}
